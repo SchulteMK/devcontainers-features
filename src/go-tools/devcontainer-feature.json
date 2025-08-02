@@ -1,0 +1,19 @@
+{
+    "name": "Go-Tools",
+    "id": "go-tools",
+    "version": "1.0.0",
+    "description": "A feature to install go tooling",
+    "options": {
+        "tool": {
+            "type": "string",
+            "proposals": [
+                "github.com/a-h/templ/cmd/templ@latest"
+            ],
+            "default": "",
+            "description": "Choose your tool to install with go install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/go"
+    ]
+}
