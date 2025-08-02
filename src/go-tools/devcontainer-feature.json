@@ -1,16 +1,70 @@
 {
     "name": "Go-Tools",
     "id": "go-tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A feature to install go tooling",
     "options": {
-        "tool": {
+        "tool0": {
             "type": "string",
             "proposals": [
                 "github.com/a-h/templ/cmd/templ@latest"
             ],
             "default": "",
             "description": "Choose your tool to install with go install."
+        },
+        "tool1": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool2": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool3": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool4": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool5": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool6": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool7": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool8": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
+        },
+        "tool9": {
+            "type": "string",
+            "proposals": [],
+            "default": "",
+            "description": "Optionally choose another tool to be installed"
         }
     },
     "installsAfter": [
